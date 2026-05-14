@@ -72,10 +72,11 @@ img{
     font-family: 'Franklin Gothic Medium';
     color: rgb(10, 10, 10);
     align-content: center;  
+    font-size: 40px;
 }
 .about p{
     font-family:'Calibri';
-    font-size: 15px;
+    font-size: 20px;
 }
 .skills h1{
     color: azure;
@@ -128,4 +129,3 @@ img{
     font-size: 18px;
     font-family: 'Lucida Sans';
 }
-
