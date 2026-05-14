@@ -129,3 +129,74 @@ img{
     font-size: 18px;
     font-family: 'Lucida Sans';
 }
+.projectssection{
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+.projectscard{
+    width: 900px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 25px;
+    padding: 40px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+
+.projectscard h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #222;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.categorycontainer{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.categorybox{
+    flex: 1;
+    min-width: 300px;
+
+    background: rgba(0,0,0,0.05);
+    border-radius: 20px;
+
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.categorybox button{
+    margin-top: 20px;
+}
+button{
+    display: block;
+    margin: 20px auto;
+}
+.categorybox h3{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 35px;
+    color: #222;
+    font-family: 'Lucida Sans Regular';
+}
+
+.projectitem{
+    background: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.projectitem:hover{
+    transform: translateY(-5px);
+}
