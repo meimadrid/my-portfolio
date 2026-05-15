@@ -186,7 +186,6 @@ button{
     color: #222;
     font-family: 'Lucida Sans Regular';
 }
-
 .projectitem{
     background: white;
     margin-bottom: 15px;
@@ -196,7 +195,6 @@ button{
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: 0.3s;
 }
-
 .projectitem:hover{
     transform: translateY(-5px);
 }
