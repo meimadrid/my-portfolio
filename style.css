@@ -235,3 +235,10 @@ button{
 .contact-box a:hover{
     color: white;
 }
+footer{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
