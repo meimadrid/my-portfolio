@@ -198,3 +198,40 @@ button{
 .projectitem:hover{
     transform: translateY(-5px);
 }
+.contact{
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1f1f1f, #3b3b3b);
+}
+.contact-box{
+    width: 70%;
+    max-width: 700px;
+    padding: 40px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+.contact-box h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium';
+}
+.contact-box p{
+    margin: 15px 0;
+    font-size: 18px;
+    font-family: 'Calibri';
+}
+.contact-box a{
+    color: #f1e5a3;
+    text-decoration: none;
+}
+.contact-box a:hover{
+    color: white;
+}
